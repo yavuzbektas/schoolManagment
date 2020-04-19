@@ -175,3 +175,14 @@ pyinstaller --add-data 'src/README.txt:.' myscript.py
 
 #======================================================================================
 CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+
+#======================================================================================
+You could use pymysql.
+
+pip install mysqlclient pymysql
+
+Once these libraries are installed, just add the lines in the manage.py file in your project and use the database settings for mysql.
+
+import pymysql
+pymysql.install_as_MySQLdb()
+#======================================================================================

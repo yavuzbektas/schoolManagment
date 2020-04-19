@@ -50,13 +50,13 @@ print('Resim Dosyalar : {} klasöründe ve  CV Dosyları : {} kalasöründe yer 
 # ================ INTERNSHIP DIALOG ===================================
 class InternshipWindow(QDialog, internship.Ui_Dialog):
     def __init__(self, parent=None, *args, **kwargs):
-        super(InternshipWindow, self).__init__(parent, *args, **kwargs)
+        super(InternshipWindow, self).__init__(parent, *args, **kwargs) # iç içe pencere için parent önemli
         self.ui = internship.Ui_Dialog()
 
         self.ui.setupUi(self)
         self.setWindowTitle('Staj Yapan Öğrenci Seçim Seçim Sayfası')
         self.handle_button()
-        self.internshipDialog = parent
+        self.internshipDialog = parent  # iç içe pencere için parent önemli
         self.internship_search()
 
     def handle_button(self):
