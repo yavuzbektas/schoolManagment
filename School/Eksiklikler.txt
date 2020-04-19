@@ -20,7 +20,7 @@ bir kısmı yapıldı ve limt de kondu
 	- bağlanacağı databese ismi adres ve şifre burada olabilir
 	- Bağlantı test butonu 
 	- mysql inspector dan dablo yratmak için kodları al
-*- database foreignkeyleri iolustur ve ilişkileri yarat
+
 
 
 
