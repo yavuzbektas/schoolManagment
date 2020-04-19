@@ -1,0 +1,177 @@
+student Project
+---------------------------------
+Files
+- Requrements.txt
+- Outline.txt
+- Readme.MD
+- Media
+- static
+    - Icons
+    - img
+    - UI files
+
+---------------------------------
+- Pages
+    -- Teacher Login /Logout
+    -- student Add/Remove/update
+    -- Firm Add/Remove/update
+    -- Internhip Add/Remove/update
+        -- Internship Capacity Add/Remove/update
+    -- report Page
+        --- Discounty Page
+        --- weekly Report
+        --- other report
+    -- Settings
+        --- internship type
+        --- Teacher Add/Remove/update
+        --- database setting
+        --- theme setting
+----------------------------------
+- Tables
+    Teacher
+    -- Teacher Name
+    -- Teacher Password
+    -- Teacher Email
+    -- National_ID
+    -- record Date > automatic
+
+    Teacher Profile Detail
+    -- Teacher ID
+
+    -- Departure > ComboBox
+    -- status > ComboBox
+    -- Start_year
+    -- city
+    -- state
+    -- adress
+    -- telephone
+
+    -- office email
+    -- University_name
+    -- University_departure
+    -- Profile image ---> dosya Lokasyonu / media dosyasına kaydedilecek
+    -- CV file ----> dosya Lokasyonu / media dosyasına kaydedilecek
+    -- social adress
+        --- FB
+        --- Linkedin
+        --- blog
+        --- other
+
+    Student Table
+    -- Student_Name
+    -- Student_Surname
+    -- Student_TC
+    -- Student_Parent Name+Surname
+    -- Student_Parent Telephone
+    -- Student_adress
+    -- Student_city
+    -- Student_state
+    -- Student_personal_email
+    -- Student_telephone
+    -- Student_Register Year
+    -- Student_Departure
+    -- Student_class
+    -- Student_Class_no
+    -- Student skills
+    -- record date > automatic
+
+
+    Firm Table
+    -- Cari_code
+    -- Fİrm Name
+    -- Firm Adress
+    -- Firm _city
+    -- Firm _state
+    -- Firm Telephon
+    -- Firm Fax
+    -- Firm Web
+    -- Fİrm Sector Code
+    -- Firm Sector Desc
+    -- Firm HR Name+Surname
+    -- Firm HR Telephone
+    -- Fİrm HR Email
+    -- firm Note
+    -- record date > automatic
+
+
+    Internship Capacity
+    -- firm ID
+    -- session > combobox
+    -- internship type > combobox
+    -- Total Capacity
+    -- Girls
+    -- boys
+    -- notes
+    -- company staff
+    -- staff title
+    -- record date > automatic
+
+
+    Internship Data
+    -- Firm ID
+    -- Student ID
+    -- internship start_date
+    -- internship finish_date
+    -- internship day
+    -- Note
+    -- record date > automatic
+
+
+
+
+    absenterism Report Table
+
+    -- Internship Data ID
+    -- discontinuity day
+    -- discount type
+    -- Teacher ID
+    -- record date > automatic
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------
+support link
+https://www.w3schools.com/python/python_mysql_insert.asp
+
+----------------------------------------------
+two library for mysql communicaiton
+to compare  : https://charlesnagy.info/it/python/python-mysqldb-vs-mysql-connector-query-performance
+https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
+https://www.tutorialspoint.com/python/python_database_access.htm
+https://www.datacamp.com/community/tutorials/mysql-python#CD
+
+------------------------------------------------
+pyside2 vs pyqt5
+https://www.learnpyqt.com/blog/pyqt5-vs-pyside2/
+
+
+#======================================================================================
+start Project
+- İnstall Pyside2 or pyqt5 library
+- design Login page
+
+pyside2-uic mainwindow.ui > ui_mainwindow.py
+pyside2-uic mainwindow.ui -o MainWindow.py
+
+veya
+
+pyuic5 mainwindow.ui -o MainWindow.py
+#======================================================================================
+
+collect for all requirements files into txt file
+pip freeze > requirements.txt
+#======================================================================================
+pyinstaller --onefile school.py
+pyinstaller --add-data "staticfiles;." school.py
+
+pyinstaller --add-data 'src/README.txt:.' myscript.py
+
+#======================================================================================
+CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP

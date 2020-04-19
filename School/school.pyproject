@@ -1,0 +1,3 @@
+{
+    "files": ["mainwindow.ui","icons.qrc","quota.ui","Login.ui","firms.ui","students.ui","internship.ui"]
+}

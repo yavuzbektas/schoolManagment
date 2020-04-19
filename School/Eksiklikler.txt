@@ -1,0 +1,34 @@
+
+
+*- haftalık ziyaret tablosu olusturma
+*- Raporlar sayfasının butonları düznlenecek
+*- raporlar sayfasında seçilen yıla ait tüm sınıfları export et diye bir seçenek olmalı
+aynı excelde ayrı tablara yadedecek
+
+*- kara liste seçeneği
+
+*- tab orderların düzenlenmesi
+
+
+*- açılışta gecikme olmaması için soruları başlangısta yapmasını iptal edebilirsin
+bir kısmı yapıldı ve limt de kondu
+*- devamsızlık raporları upload edilip adresleri databesede tutulabilinir.
+
+*- database ile ilgili bir ayarlar sayfası yaratılabilinir.
+	- Tüm tablolorı olusturma
+	- Databesi olusturma
+	- bağlanacağı databese ismi adres ve şifre burada olabilir
+	- Bağlantı test butonu 
+	- mysql inspector dan dablo yratmak için kodları al
+*- database foreignkeyleri iolustur ve ilişkileri yarat
+
+
+
+
+
+
+
+
+
+
+
