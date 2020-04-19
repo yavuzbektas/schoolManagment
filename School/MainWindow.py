@@ -5035,10 +5035,13 @@ class Ui_MainWindow(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">T\u00fcm Haklar\u0131 sakl\u0131d\u0131r.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Email : yavuzbektas@gmail.com</p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Linkedin Adresim : <a hre"
-                        "f=\"https://www.linkedin.com/in/yavuz-bekta%C5%9F-28659642/\"><span style=\" font-size:8pt; text-decoration: underline; color:#0000ff;\">https://www.linkedin.com/in/yavuz-bekta%C5%9F-28659642/</span></a></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">GitHub : <a href=\"https:"
+                        "//github.com/yavuzbektas/schoolManagment\"><span style=\" font-size:8pt; text-decoration: underline; color:#0000ff;\">https://github.com/yavuzbektas/schoolManagment</span></a></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Linkedin Adresim : <a href=\"https://www.linkedin.com/in/yavuz-bekta%C5%9F-28659642/\"><span style=\" font-size:8pt; text-decoration: underline; color:#0000ff;\">https://www.linkedin.com/in/yavuz-bekta%C5%9F-28659642/</span></a></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; text-decoration: underline; color:#0000ff;\"><br /></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; text-decoration: underline; color:#0000ff;\"><br /></p></body></html>", None))
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; text-decoration: underline; color:#0000ff;\"><br /></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-t"
+                        "op:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; text-decoration: underline; color:#0000ff;\"><br /></p></body></html>", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_19), QCoreApplication.translate("MainWindow", u"Hakk\u0131mda", None))
         self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"\u00d6\u011frenci", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Dersler", None))
